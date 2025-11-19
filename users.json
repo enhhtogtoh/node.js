@@ -1,0 +1,82 @@
+[
+  {
+    "id": "u1",
+    "firstName": "Amaraa",
+    "lastName": "Bold",
+    "email": "amaraa.bold@example.com",
+    "jobTitle": "Software Engineer",
+    "department": "Engineering"
+  },
+  {
+    "id": "u2",
+    "firstName": "Tselmuun",
+    "lastName": "Ganbat",
+    "email": "tselmuun.ganbat@example.com",
+    "jobTitle": "HR Specialist",
+    "department": "Human Resources"
+  },
+  {
+    "id": "u3",
+    "firstName": "Nomin",
+    "lastName": "Enkhbayar",
+    "email": "nomin.enkhbayar@example.com",
+    "jobTitle": "UI/UX Designer",
+    "department": "Design"
+  },
+  {
+    "id": "u4",
+    "firstName": "Erdenebat",
+    "lastName": "Dashdorj",
+    "email": "erdenebat.dashdorj@example.com",
+    "jobTitle": "Accountant",
+    "department": "Finance"
+  },
+  {
+    "id": "u5",
+    "firstName": "Anudari",
+    "lastName": "Saruul",
+    "email": "anudari.saruul@example.com",
+    "jobTitle": "Marketing Manager",
+    "department": "Marketing"
+  },
+  {
+    "id": "u6",
+    "firstName": "Temuulen",
+    "lastName": "Nyam",
+    "email": "temuulen.nyam@example.com",
+    "jobTitle": "Sales Representative",
+    "department": "Sales"
+  },
+  {
+    "id": "u7",
+    "firstName": "Bilguun",
+    "lastName": "Togtokh",
+    "email": "bilguun.togtokh@example.com",
+    "jobTitle": "Project Manager",
+    "department": "Operations"
+  },
+  {
+    "id": "u8",
+    "firstName": "Solongo",
+    "lastName": "Khaliun",
+    "email": "solongo.kh@example.com",
+    "jobTitle": "Business Analyst",
+    "department": "Business"
+  },
+  {
+    "id": "u9",
+    "firstName": "Delger",
+    "lastName": "Erkhembayar",
+    "email": "delger.erkhem@example.com",
+    "jobTitle": "Customer Support",
+    "department": "Support"
+  },
+  {
+    "id": "u10",
+    "firstName": "Uuganbayar",
+    "lastName": "Tugs",
+    "email": "uugan.tugs@example.com",
+    "jobTitle": "DevOps Engineer",
+    "department": "Engineering"
+  }
+]
