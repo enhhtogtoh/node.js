@@ -53,9 +53,17 @@ const hariu = findUserEmail("bilguun.togtokh@example.com");
 
 // #3. Jobtitle-аар filter-дэнэ.
 
-const result1 = parsedUser.filter((value) => value.jobTitle);
-console.log(result1);
+const filterByJobTitle = (title) => {
+  const result1 = parsedUser.filter((value) => value.jobTitle === title);
+  console.log(result1);
+};
+const hariu1 = filterByJobTitle("Software Engineer");
 
 // #4. Department-аар filter-дэнэ.
+const filterByDepartment = (department) => {
+  const result2 = parsedUser.filter((value) => value.department === department);
+  console.log(result2);
+};
+const hariu2 = filterByDepartment("Support");
 // #5. Email-ээр хэрэглэгч устгаад users.json update
 // #6. Emaileer хэрэглэгч олоод jobtitle, department 2г өөрчилнө тэгээд users.json update.
