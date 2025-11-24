@@ -7,19 +7,22 @@
     <link rel="stylesheet" href="./calculator.css" />
   </head>
   <body>
-    <div class="background">
-      <div class="title">
-        <h2 class="head-change">Tip Calculator</h2>
-        <div class="head-glass"></div>
-      </div>
-      <div class="tip-calculator">
-        <div class="section">
-          <h6 class="p">Bill</h6>
+    <!-- <div class="background"> -->
+    <header>
+      <h2 class="head-change">Tip Calculator</h2>
+      <div class="head-glass"></div>
+    </header>
+    <div class="tip-calculator">
+      <div class="section">
+        <div class="bill-container">
+          <p>Bill</p>
           <div class="bill-input">
             <span>₮</span>
-            <input type="text" class="input" />
+            <input type="text" name="" class="input" />
           </div>
-          <h6 class="p">Select Tip %</h6>
+        </div>
+        <div class="select-tip">
+          <p>Select Tip %</p>
           <div class="tips">
             <button class="tip">5%</button>
             <button class="tip">10%</button>
@@ -30,10 +33,12 @@
             <button class="tip">65%</button>
             <button class="tip">80%</button>
           </div>
-          <h6 class="p">0.00</h6>
-          <button class="reset">Reset</button>
         </div>
+        <p class="total">Total 0.00</p>
+        <button class="reset">Reset</button>
       </div>
     </div>
+    <!-- </div> -->
+    <script src="./calculator.js"></script>
   </body>
 </html>
