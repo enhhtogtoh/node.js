@@ -1,0 +1,102 @@
+.body {
+  margin: 0;
+}
+.background {
+  height: 100vh;
+  background: #2a7b9b;
+  background: linear-gradient(
+    110deg,
+    rgba(42, 123, 155, 1) 20%,
+    rgba(87, 199, 133, 1) 90%
+  );
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 350px;
+  /* margin-top: 350px; */
+}
+.head-change {
+  color: white;
+  font-size: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.head-glass {
+  width: 400px;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(2px);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  position: absolute;
+  transform: translateX(-50%) rotate(8deg);
+  left: 50%;
+}
+.tip-calculator {
+  background-color: white;
+  width: 400px;
+  padding: 16px;
+  column-gap: 12px;
+  border-radius: 26px;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  position: absolute;
+  top: 650px;
+  /* margin-top: 400px; */
+}
+.section {
+  background-color: #03958a;
+  border-radius: 10px;
+  height: 100%;
+  display: flex;
+  row-gap: 10px;
+  flex-direction: column;
+  padding: 26px 16px;
+}
+.p {
+  color: #01464b;
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+.bill-input {
+  padding: 8px;
+  display: flex;
+  column-gap: 12px;
+  border-radius: 4px;
+  background-color: #f3f8fa;
+}
+.input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.tips {
+  gap: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.tip {
+  width: 70px;
+  height: 35px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: #01464b;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+.reset {
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+.tip:hover {
+  background-color: #84fab0;
+}

@@ -67,3 +67,5 @@ const filterByDepartment = (department) => {
 const hariu2 = filterByDepartment("Support");
 // #5. Email-ээр хэрэглэгч устгаад users.json update
 // #6. Emaileer хэрэглэгч олоод jobtitle, department 2г өөрчилнө тэгээд users.json update.
+
+// --------calculator---------
