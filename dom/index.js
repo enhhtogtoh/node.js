@@ -19,6 +19,6 @@ clickButton.addEventListener("click", function () {
 });
 
 const multiply = (value) => {
-  const result = value * 1.1;
+  const result = value * value;
   return result;
 };
