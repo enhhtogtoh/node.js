@@ -71,13 +71,13 @@ p {
   border-radius: 4px;
   background-color: #f3f8fa;
 }
-.input {
+#input {
   width: 100%;
   border: none;
   outline: none;
   background-color: transparent;
 }
-.tips {
+#tips {
   gap: 12px;
   display: flex;
   flex-wrap: wrap;
@@ -93,7 +93,7 @@ p {
   border-radius: 4px;
   transition: all 0.3s;
 }
-.reset {
+#reset {
   height: 30px;
   border: none;
   cursor: pointer;

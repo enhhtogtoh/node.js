@@ -1,14 +1,14 @@
 const containerDiv = document.getElementById("container");
 const newElement = document.createElement("p");
 
-newElement.style.color = "blue";
+// newElement.style.color = "blue";
 
-containerDiv.appendChild(newElement);
+// containerDiv.appendChild(newElement);
 
 const multiplyNumber = document.getElementById("input");
 const clickButton = document.getElementById("button");
 
-newElement.style.color = "red";
+newElement.style.color = "green";
 
 containerDiv.appendChild(newElement);
 
