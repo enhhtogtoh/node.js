@@ -34,14 +34,9 @@ body {
   width: var(--width-image);
   height: var(--height-image);
   background: var(--image-url) center/cover no-repeat;
+  animation: test1 var(--planet-duration) linear infinite;
 }
-
-/* .center-position-mercury {
-  width: 180px;
-  height: 180px;
-  animation: test 8.8s linear infinite;
-}
-@keyframes test {
+@keyframes test1 {
   from {
     transform: translate(-50%, -50%) rotate(0deg);
   }
@@ -49,231 +44,15 @@ body {
     transform: translate(-50%, -50%) rotate(360deg);
   }
 }
-.center-position-venus {
-  width: 235px;
-  height: 235px;
-  animation: position-venus 22.5s linear infinite;
+.planet {
+  position: absolute;
+  top: var(--top);
 }
-@keyframes position-venus {
-  from {
-    transform: translate(-50%, -50%) rotate(0deg);
-  }
-  to {
-    transform: translate(-50%, -50%) rotate(360deg);
-  }
-}
-.center-position-earth {
-  width: 350px;
-  height: 350px;
-  animation: position-earth 36.5s linear infinite;
-}
-@keyframes position-earth {
-  from {
-    transform: translate(-50%, -50%) rotate(0deg);
-  }
-  to {
-    transform: translate(-50%, -50%) rotate(360deg);
-  }
-}
-.center-position-mars {
-  width: 500px;
-  height: 500px;
-  animation: position-mars 68.7s linear infinite;
-}
-@keyframes position-mars {
-  from {
-    transform: translate(-50%, -50%) rotate(0deg);
-  }
-  to {
-    transform: translate(-50%, -50%) rotate(360deg);
-  }
-}
-.center-position-jupiter {
-  width: 680px;
-  height: 680px;
-  animation: position-jupiter 118.6s linear infinite;
-}
-@keyframes position-jupiter {
-  from {
-    transform: translate(-50%, -50%) rotate(0deg);
-  }
-  to {
-    transform: translate(-50%, -50%) rotate(360deg);
-  }
-}
-.center-position-saturn {
-  width: 800px;
-  height: 800px;
-  animation: position-saturn 294.6s linear infinite;
-}
-@keyframes position-saturn {
-  from {
-    transform: translate(-50%, -50%) rotate(0deg);
-  }
-  to {
-    transform: translate(-50%, -50%) rotate(360deg);
-  }
-}
-.center-position-uranus {
-  width: 950px;
-  height: 950px;
-  animation: position-uranus 840s linear infinite;
-}
-@keyframes position-uranus {
-  from {
-    transform: translate(-50%, -50%) rotate(0deg);
-  }
-  to {
-    transform: translate(-50%, -50%) rotate(360deg);
-  }
-}
-.center-position-neptune {
-  width: 1100px;
-  height: 1100px;
-  animation: position-neptune 1600s linear infinite;
-}
-@keyframes position-neptune {
-  from {
-    transform: translate(-50%, -50%) rotate(0deg);
-  }
-  to {
-    transform: translate(-50%, -50%) rotate(360deg);
-  }
-} */
 .orbit {
-  border: 1.5px dashed, white;
+  border: 1.5px dashed white;
   border-radius: 50%;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
-/* .mercury {
-  width: 25px;
-  height: 25px;
-  position: absolute;
-  top: 50px;
-  left: 10px;
-  animation: mercury 5.86s linear infinite;
-}
-@keyframes mercury {
-  from {
-    transform: translate(-50%, -50%) rotate(0deg);
-  }
-  to {
-    transform: translate(-50%, -50%) rotate(360deg);
-  }
-}
-.venus {
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  top: 70px;
-  left: 10px;
-  animation: venus 24.3s linear infinite;
-}
-@keyframes venus {
-  from {
-    transform: translate(-50%, -50%) rotate(0deg);
-  }
-  to {
-    transform: translate(-50%, -50%) rotate(360deg);
-  }
-}
-.earth {
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  top: 95px;
-  left: 20px;
-  animation: earth 1s linear infinite;
-}
-@keyframes earth {
-  from {
-    transform: translate(-50%, -50%) rotate(0deg);
-  }
-  to {
-    transform: translate(-50%, -50%) rotate(360deg);
-  }
-}
-.mars {
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  top: 145px;
-  left: 23px;
-  animation: mars 1.025s linear infinite;
-}
-@keyframes mars {
-  from {
-    transform: translate(-50%, -50%) rotate(0deg);
-  }
-  to {
-    transform: translate(-50%, -50%) rotate(360deg);
-  }
-}
-.jupiter {
-  width: 60px;
-  height: 60px;
-  position: absolute;
-  top: 180px;
-  left: 40px;
-  animation: jupiter 0.41s linear infinite;
-}
-@keyframes jupiter {
-  from {
-    transform: translate(-50%, -50%) rotate(0deg);
-  }
-  to {
-    transform: translate(-50%, -50%) rotate(360deg);
-  }
-}
-.saturn {
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  top: 160px;
-  left: 80px;
-  animation: saturn 0.45s linear infinite;
-}
-@keyframes saturn {
-  from {
-    transform: translate(-50%, -50%) rotate(0deg);
-  }
-  to {
-    transform: translate(-50%, -50%) rotate(360deg);
-  }
-}
-.uranus {
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  top: 210px;
-  left: 80px;
-  animation: uranus 0.717s linear infinite;
-}
-@keyframes uranus {
-  from {
-    transform: translate(-50%, -50%) rotate(0deg);
-  }
-  to {
-    transform: translate(-50%, -50%) rotate(360deg);
-  }
-}
-.neptune {
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  top: 260px;
-  left: 82px;
-  animation: neptune 0.717s linear infinite;
-}
-@keyframes neptune {
-  from {
-    transform: translate(-50%, -50%) rotate(0deg);
-  }
-  to {
-    transform: translate(-50%, -50%) rotate(360deg);
-  }
-} */
