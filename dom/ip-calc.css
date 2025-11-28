@@ -32,12 +32,14 @@ body {
 #result {
   width: 360px;
   height: 100px;
-  font-size: 40px;
+  font-size: 80px;
 
   display: flex;
   align-items: flex-end;
   justify-content: end;
   color: white;
+  position: relative;
+  top: 60px;
 }
 /* .display {
   width: 360px;

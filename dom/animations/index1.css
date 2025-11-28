@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-image: url(./galaxy.webp);
+  background-size: cover;
+  background-position: center; */
+}
+.background {
+  width: 700px;
+  height: 700px;
+  background-color: black;
+  border-radius: 50%;
+}
+.center {
+  width: var(--round-width);
+  height: var(--round-heigth);
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: var(--round-border);
+  filter: drop-shadow(0 0 5px rgba(0, 180, 255))
+    drop-shadow(0 0 10px rgba(0, 180, 255))
+    drop-shadow(0 0 15px rgba(0, 180, 255));
+}
+.round-border {
+  width: var(--round-width);
+  height: var(--round-heigth);
+  border: var(--round-border-size) dashed white;
+  border-radius: var(--round-border);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  filter: drop-shadow(0 0 5px rgba(0, 180, 255))
+    drop-shadow(0 0 10px rgba(0, 180, 255))
+    drop-shadow(0 0 15px rgba(0, 180, 255));
+}
+.layer-1 {
+  animation: lay1 var(--round-duration) linear infinite;
+}
+@keyframes lay1 {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+.layer-2 {
+  animation: lay2 var(--round-duration) linear infinite;
+}
+@keyframes lay2 {
+  from {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+}
+.layer-3 {
+  animation: lay3 var(--round-duration) linear infinite;
+}
+@keyframes lay3 {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
